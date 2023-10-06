@@ -295,6 +295,40 @@
     
 }
 
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .header{
+        justify-content: space-between;
+    }
+    
+    .contact form  .contact-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+    
+    
+    .about-img img {
+        width: 90vw;
+    }
+    
+    .footer {
+        flex-direction: column-reverse;
+    }
+    
+    footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
 
 
 
